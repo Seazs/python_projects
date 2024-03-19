@@ -9,7 +9,7 @@ import numpy as np
 
 cap = cv2.VideoCapture(0)
 
-eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
+eye_cascade = cv2.CascadeClassifier('cascade2.xml')
 
 i = 0
 while(True):
